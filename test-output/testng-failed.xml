@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Flipkart]">
+  <test thread-count="5" name="Smoke(failed)">
+    <classes>
+      <class name="BasicPackage.BaseClass">
+        <methods>
+          <include name="getTitleFlipkart"/>
+          <include name="getCurrentUrl"/>
+          <include name="LaunchFlipkart"/>
+        </methods>
+      </class> <!-- BasicPackage.BaseClass -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [Flipkart] -->

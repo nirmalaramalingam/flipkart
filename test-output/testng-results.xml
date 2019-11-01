@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Flipkart" duration-ms="36034" started-at="2019-11-01T12:55:36Z" finished-at="2019-11-01T12:56:12Z">
+    <groups>
+    </groups>
+    <test name="Smoke" duration-ms="36034" started-at="2019-11-01T12:55:36Z" finished-at="2019-11-01T12:56:12Z">
+      <class name="BasicPackage.BaseClass">
+        <test-method status="PASS" signature="LaunchFlipkart()[pri:1, instance:BasicPackage.BaseClass@1e127982]" name="LaunchFlipkart" duration-ms="35907" started-at="2019-11-01T12:55:36Z" finished-at="2019-11-01T12:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchFlipkart -->
+        <test-method status="PASS" signature="getTitleFlipkart()[pri:2, instance:BasicPackage.BaseClass@1e127982]" name="getTitleFlipkart" duration-ms="28" started-at="2019-11-01T12:56:12Z" finished-at="2019-11-01T12:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleFlipkart -->
+        <test-method status="PASS" signature="getCurrentUrl()[pri:3, instance:BasicPackage.BaseClass@1e127982]" name="getCurrentUrl" duration-ms="16" started-at="2019-11-01T12:56:12Z" finished-at="2019-11-01T12:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrentUrl -->
+      </class> <!-- BasicPackage.BaseClass -->
+    </test> <!-- Smoke -->
+  </suite> <!-- Flipkart -->
+</testng-results>
