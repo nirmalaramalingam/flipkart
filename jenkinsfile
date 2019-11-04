@@ -1,0 +1,25 @@
+pipeline 
+{
+agent any
+stages 
+    {
+	stage("Flipkart")
+		{
+		steps
+            {
+            git 'https://github.com/nirmalaramalingam/flipkart.git'
+            mvn test
+		}   
+		}
+	stage("amazon")
+		{
+		steps
+            {
+            git 'https://github.com/nirmalaramalingam/amazon.git'
+            mvn test
+            } 
+		}
+		
+		}
+    }
+
