@@ -8,7 +8,7 @@ stages
 		steps
             {
             git 'https://github.com/nirmalaramalingam/flipkart.git'
-            mvn test
+            test
 		}   
 		}
 	stage("amazon")
@@ -16,7 +16,7 @@ stages
 		steps
             {
             git 'https://github.com/nirmalaramalingam/amazon.git'
-            mvn test
+            test
             } 
 		}
 		
